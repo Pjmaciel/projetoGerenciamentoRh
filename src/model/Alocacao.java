@@ -1,5 +1,4 @@
-package Model;
-
+package model;
 
 public class Alocacao {
 
@@ -8,8 +7,6 @@ public class Alocacao {
 	private String diaDaSemana;
 	private String horario;
 
-	
-	
 	public Alocacao(Professor professor, Curso curso, String diaDaSemana, String horario) {
 		this.professor = professor;
 		this.curso = curso;
@@ -51,10 +48,7 @@ public class Alocacao {
 
 	@Override
 	public String toString() {
-		return "Alocacao \n" + professor + "\n" + curso + "\nDia da Semana: " + diaDaSemana + "\nHorario: "
-				+ horario;
+		return "Alocacao \n" + professor + "\n" + curso + "\nDia da Semana: " + diaDaSemana + "\nHorario: " + horario;
 	}
-	
-	
 
 }

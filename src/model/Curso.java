@@ -1,7 +1,7 @@
-package Model;
+package model;
 
 public class Curso {
-	
+
 	private String nome;
 
 	public Curso(String nome) {
@@ -15,11 +15,10 @@ public class Curso {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Curso: " + this.nome;
 	}
-	
 
 }
