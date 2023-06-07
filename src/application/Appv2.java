@@ -33,14 +33,14 @@ public class Appv2 {
 		
 		
 		
-		System.out.println("--------------------------------------------------");
-		System.out.println("---------Bem Vindos ao GerenciamentoRH APP -------");
-		System.out.println("-----------------------------------------------");
+		System.out.println("----------------------------------------------------");
+		System.out.println("------Bem Vindos ao GerenciamentoRH APP v0.2 -------");
+		System.out.println("----------------------------------------------------");
 		System.out.println("******** Escolha o numero da operação *******");
-		System.out.println("-----------------------------------------------");
-		System.out.println("|         Option 1 - Registro                  |");
-		System.out.println("|         Option 2 - Mostrar Registros         |");
-		System.out.println("|         Option 3 - Sair                      |");
+		System.out.println("----------------------------------------------------");
+		System.out.println("|             Option 1 - Registro                   |");
+		System.out.println("|             Option 2 - Mostrar Registros          |");
+		System.out.println("|             Option 3 - Sair                       |");
 		System.out.println("");
 		System.out.print("Choice: ");
 

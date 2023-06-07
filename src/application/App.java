@@ -13,6 +13,10 @@ public class App {
 
 	public static void main(String[] args) {
 		
+		System.out.println("---------------------------------------");
+		System.out.println("------ GerenciamentoRH APP v0.1 -------");
+		System.out.println("---------------------------------------");
+		
 		Scanner input =  new Scanner(System.in);
 		out.print ("Digite o nome do departamento: ");
 		String dpnome = input.next();
@@ -45,7 +49,7 @@ public class App {
 		System.out.println("=============== Alocaçao ============");
 		System.out.println(alocacao);
 		
-		
+		System.out.println("=============== Programa Encerrado ============");		
 		
 		input.close();
 		
